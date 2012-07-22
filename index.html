@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html dir="rtl" xml:lang="he" xmlns="http://www.w3.org/1999/xhtml" lang="he"><head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>מוזילה בשידור חי</title>
+    <link rel="stylesheet" type="text/css" href="template_002.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="template.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="content.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="portal-page.css" media="screen" title="Dalvay" />
+    <style type="text/css">
+    h1 {margin: 0pt 450px 0pt 0pt;}
+    #mibbitApplet {border:0;display: none;}
+    </style>
+</head><body id="central" class="portal-page">
+
+<div class="portal-box">
+<div class="portal-box-interior">
+
+<div class="portal-box-header">
+<h1>live.mozilla.org.il</h1> 
+<p>מוזילה בשידור חי</p>
+</div>
+
+<div class="portal-box-contents">
+
+   <h3>צ'אט</h3>
+
+   <div id="chatSelector">      
+      <fieldset>
+      <legend>התחברות לצ'אט דרך הדפדפן</legend>
+      <form method="get" target="mibbitApplet" action="http://embed.mibbit.com/">
+        <label for="nick">כינוי (אנגלית בלבד): </label>
+          <input type="text" id="nick" dir="ltr" name="nick" />
+        <input type="hidden" name="channel" value="#mozilla.il" />
+        <input type="hidden" name="server" value="irc.mozilla.org" />
+        <input type="hidden" name="customprompt" value="irc://irc.mozilla.org/#mozilla.il" />
+        <input type="hidden" name="customloading" value="Connecting..." />
+        <input type="submit" value="כנס לצ'אט!" onclick="document.getElementById('chatSelector').style.display='none';document.getElementById('mibbitApplet').style.display='block';" />
+      </form>
+      <p>יישום הצ'אט באדיבות Mibbit.com</p>
+     </fieldset>
+     <fieldset><legend>התחברות לערוץ באמצעות תוכנה ייעודית</legend>
+     <p>ניתן להתחבר לערוץ שלנו באמצעות Chatzilla, או באמצעות כל תוכנת IRC אחרת.</p>
+     <p>לאחר התקנת תוכנה תומכת, <a href="irc://irc.mozilla.org/#mozilla.il">יש ללחוץ על הקישור הזה</a> לשם כניסה לערוץ. במידה והקישור לא עובד כראוי פרטי השרת הם כדלקמן:</p>
+     <p dir="ltr"><strong>Server:</strong> <em>irc.mozilla.org</em>  <strong>Channel:</strong> <em>#mozilla.il</em></p>
+     </fieldset>
+    </div>
+<!--iframe id="mibbit" name="mibbit" width="600" height="400" scrolling="no" style="border:0" src="http://embed.mibbit.com/?channel=%23mozilla.il&forcePrompt=true&customprompt=Welcome to #mozilla.il
+&customloading=Loading chat applet. Please hold."></iframe-->
+
+<iframe id="mibbitApplet" name="mibbitApplet" width="660" height="300" scrolling="no"></iframe>
+
+</div> <!-- end .portal-box-contents  -->
+</div> <!-- end .portal-box-interior  -->
+</div> <!-- end .portal-box  -->
+
+
+        
+
+        <hr />
+
+    <!-- start #footer -->
+    <div id="footer">
+
+        <p dir="ltr">Copyright © 2008 <a href="http://www.mozilla.org.il">Mozilla Israel</a></p>
+
+    </div>
+    <!-- end #footer -->
+</body></html>
